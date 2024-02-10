@@ -7,7 +7,7 @@ pipeline {
    
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/sarithabora2246/helloworld.git'
+        git branch: 'main', url: 'https://github.com/sarithabora2246/pipelineproject.git'
       }
     }
     stage('Pull Changes') {
